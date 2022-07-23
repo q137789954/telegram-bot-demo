@@ -103,7 +103,7 @@ python TutorialBot.py
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
 ### Dependencies
-Type these command in your terminal and press <kbd>enter</kbd> after each one.
+Type these commands in your terminal and press <kbd>enter</kbd> after each one.
 
 ```shell
 go mod init example.com/TutorialBot
@@ -151,3 +151,36 @@ cd TBotRemote
 chmod +x TutorialBot
 ./TutorialBot
 ```
+
+
+## TypeScript on Node.js
+
+### IDE
+- [WebStorm](https://www.jetbrains.com/webstorm/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+
+### Dependencies
+
+Type these commands in your terminal and press <kbd>enter</kbd>.
+
+```shell
+sudo apt-get update
+sudo apt-get install -y nodejs
+
+npm install
+```
+
+### Export Your Project
+
+Copy your **source file** from your project folder to your <code>TBotRemote</code> folder.
+
+
+### Run Your Bot
+
+Type these commands in your terminal and press <kbd>enter</kbd>.
+
+```shell
+cd TBotRemote
+npm start
+```
+
