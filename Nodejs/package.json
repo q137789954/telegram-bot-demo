@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "telegraf": "^4.8.5"
+    "grammy": "^1.11.2"
   },
   "devDependencies": {
     "ts-node": "^10.9.1",
