@@ -172,7 +172,7 @@ npm install
 
 ### Export Your Project
 
-Copy your **source file** from your project folder to your <code>TBotRemote</code> folder.
+Copy your **source file** and `package.json` file from your project folder to your <code>TBotRemote</code> folder.
 
 
 ### Run Your Bot
@@ -181,6 +181,7 @@ Type these commands in your terminal and press <kbd>enter</kbd>.
 
 ```shell
 cd TBotRemote
+npm install
 npm start
 ```
 
