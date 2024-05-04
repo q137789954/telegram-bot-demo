@@ -29,7 +29,7 @@ const backButton = "Back";
 const tutorialButton = "Tutorial";
 
 //Build keyboards
-const firstMenuMarkup = new InlineKeyboard().text(nextButton, backButton);
+const firstMenuMarkup = new InlineKeyboard().text(nextButton, nextButton);
  
 const secondMenuMarkup = new InlineKeyboard().text(backButton, backButton).text(tutorialButton, "https://core.telegram.org/bots/tutorial");
 
